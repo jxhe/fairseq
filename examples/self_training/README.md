@@ -16,7 +16,6 @@ Download and preprocess the WMT'14 En-De dataset:
 
 ```shell
 # Dowload and prepare the data
-cd examples/self_training/
 bash ../translation/prepare-wmt14en2de.sh --icml17
 
 TEXT=wmt14_en_de
@@ -100,7 +99,7 @@ This self-training process can be repeated for multiple iterations to improve pe
 
 
 
-## Reference
+## Citation
 
 ```bibtex
 @inproceedings{He2020Revisiting,
